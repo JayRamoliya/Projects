@@ -1,0 +1,134 @@
+
+1. React Installation tutorial | How to setup react js for development
+
+Link : https://www.youtube.com/watch?v=Rxb-XPJgatk&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=3
+
+Website : https://react.dev/
+
+First Install nodejs
+
+Full stack Framework
+Next.js
+Remix
+Gatsby
+
+vite : https://vitejs.dev/guide/
+
+install react using vite :  npm create vite@latest
+                            npm i
+                            npm run dev
+                            
+package.json file
+scripts : how to run code 
+dependencies : upload in Website online
+devDependencies : only for Website development
+
+-------------------------------------------------------------------------
+
+2. How React Works | Basics of React ! 
+
+Link : https://www.youtube.com/watch?v=KBJ9vDvVn8E&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=3
+
+public : assets, image, etc
+src : all code
+index.html : main file
+    - div id root
+    - script src="main.jsx" 
+
+main.jsx 
+    - ReactDOM components import from react-dom/client here
+    - createRoot() function in select root id
+    - render() function in root element
+    - Hello World
+    - h1 
+    - React.StrictMode use for check any error and show for debug
+    - inside jsx not html 
+    - <App/> components
+
+clear css file
+
+-------------------------------------------------------------------------
+
+3. React Components | Everything You need to know
+
+Link : https://www.youtube.com/watch?v=lDMot8gOiOE&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=4
+
+different components
+- functional components ✅
+- class components ❌
+- stateless components
+- stateful components
+- presentational components
+- container components
+- smart components
+- dumb components
+- reusable components
+
+rafce 
+    - create a function
+    - and export 
+    - another file import : import App from './App.jsx'
+    - another way to import when direct function export : import { App2 } from './App.jsx'
+
+create a src - components folder
+    - Nav.jsx
+    - Aside.jsx
+    - Main.jsx
+    - Footer.jsx
+    - import all in App.jsx
+    - App.css import : import './App.css'
+    - reuse
+
+-------------------------------------------------------------------------
+
+4. React JSX Explained | Unlocking the Power of React JSX
+
+Link : https://www.youtube.com/watch?v=g0dBNj3TUIY&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=5
+
+jsx code in js file not html file : .jsx
+html code in html file not js file : .html/html
+
+class / className
+
+direct js in jsx using {}
+jsx supports single parent : use react fragment to pass multiple parent
+loop in array in jsx
+
+-------------------------------------------------------------------------
+
+5. How to pass props in react js | Props from Children to Parent | Interview Question
+
+Link : https://www.youtube.com/watch?v=JR0giAZIUmE&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=6
+
+one way data binding
+
+parent - chile - chile1 ...
+
+how can pass props child to parent
+
+-------------------------------------------------------------------------
+
+6. useState Hook | Pro React Hooks Concepts | Hindi | 2023 - 24
+
+Link : https://www.youtube.com/watch?v=KGoMDi3TFYQ&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=7
+
+rule:
+    - start for use keyword
+    - use in top order don't use any loop
+    - functional components use not use in classbase components
+
+when use simple variable to not render components
+
+you can rander components to use 
+
+useState hooks :
+                - const [count,setCount] = useState(0)
+                - setCount(count + 1) - don't use this if you can use this not show 3 show only 1 because overwrite all use like this
+                - setCount((prevcount) => prevcount + 1) // use like this show 3
+
+                - const [count,setCount] = useState(initivalue()) - when use like this run this function every time instand use callback function useState(() => initivalue())
+                - also use like this useState(initivalue)
+
+-------------------------------------------------------------------------
+
+7. 
