@@ -151,3 +151,24 @@ i create FetchAPI.jsx components to show all use
 Link : https://www.youtube.com/watch?v=lkK1ESTLP0Y&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=9
 
 i create Reducer.jsx components to show all use
+
+const [] = useReducer(reducer_fun, { state })
+state store in first arguments in array
+
+- reducer_fun : (state, action) => { return state }
+
+dispatch({key}) 
+
+-------------------------------------------------------------------------
+
+9. useRef Hook | Pro React Hooks Concepts | Hindi | 2023 - 24
+
+Link : https://www.youtube.com/watch?v=H2eqy6C6lJk&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=10
+
+-  const inputRef = useRef(null)
+-  inputRef.current.
+-  ref={inputRef} pass in tag
+
+if any components are render to use useRef 
+
+

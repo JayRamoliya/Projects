@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Nav from './components/Nav'
 import Aside from './components/Aside'
 import Main from './components/Main'
@@ -19,6 +19,8 @@ const App = () => {
   // const [count,setCount] = useState(() => initivalue())
   const [count,setCount] = useState(initivalue) // short way in above line
 
+  const ref = useRef(0)
+
   // let count = 0; // don't use like this use like useState
 
   const plus = () => {
@@ -32,7 +34,10 @@ const App = () => {
     setCount((prevcount) => prevcount + 1)
     setCount((prevcount) => prevcount + 1) // use like this show 3 
     console.log(count);
+    ref.current++
+    console.log(ref.current);
   }
+  
   const sub = () => {
     // count--;
     setCount(count - 1)
@@ -51,8 +56,23 @@ const App = () => {
     // this is dependency array
   ])
 
+  // const inputel = document.getElementById('myinp')
+
+  // const handlesubmit = () => {
+  //   console.log(inputel.value);
+  // }
+
+  const inputRef = useRef(null)
+
+  const handlesubmit = () => {
+    inputRef.current.focus()
+    inputRef.current.style.backgroundColor="red"
+    console.log(inputRef.current.value);
+  }
   return (
     <div>
+      <input ref={inputRef} id='myinp' type="text" />
+      <button onClick={handlesubmit}>Foucs</button>
       <Reducer/>
       <Nav/>
       <Aside/>
