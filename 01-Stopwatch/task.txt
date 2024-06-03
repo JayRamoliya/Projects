@@ -1,0 +1,21 @@
+01. Stopwatch/Count-Up Timer || Learn React Through Mini Projects
+
+link : https://www.youtube.com/watch?v=xgFgZBijW7M&list=PL9ScwCmt70i_mNQW-rPkIxjxMcvogSbPc&index=2
+
+setup project : npm create vite@latest
+
+clean all files
+
+import state 
+
+create a one state(time) first one is current state
+                   second one is updated state function
+                   init value
+
+create a one more state(buttons)
+
+create a useEffect
+
+Conditional Rendering buttons
+
+tailwind css install
