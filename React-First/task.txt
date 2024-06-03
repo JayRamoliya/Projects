@@ -131,4 +131,23 @@ useState hooks :
 
 -------------------------------------------------------------------------
 
-7. 
+7. useEffect Hook | Pro React Hooks Concepts | Hindi | 2023 - 24
+
+Link : https://www.youtube.com/watch?v=-vg4-krjErc&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=8
+
+useEffect(() => {}) - when page reload automatic trigger this callback function
+- use this function to call api
+- use this function to call any function
+- use this function to call any variable
+
+- if not trigger every time pass empty [] array
+
+i create FetchAPI.jsx components to show all use
+
+-------------------------------------------------------------------------
+
+8. useReducer Hook | Pro React Hooks Concepts | Hindi | 2023 - 24
+
+Link : https://www.youtube.com/watch?v=lkK1ESTLP0Y&list=PLPppPPmk0i3iRbYDX_y5Q7mW0NZ1QRbS8&index=9
+
+i create Reducer.jsx components to show all use

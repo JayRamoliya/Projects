@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Nav from './components/Nav'
 import Aside from './components/Aside'
 import Main from './components/Main'
@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import './App.css'
 import Parent from './components/FromParentChild/Parent'
 import Parent1 from './components/FromChildParent/Parent'
+import FetchAPI from './components/FetchAPI'
+import Reducer from './components/Reducer'
 
 const initivalue = () => {
   console.log('i am run');
@@ -36,8 +38,22 @@ const App = () => {
     setCount(count - 1)
     console.log(count);
   }
+
+  useEffect(() => {
+    // Fn logic will be written here
+
+    return () => {
+      // this is clean up function
+
+    }
+    console.log('Auto Trigger');
+  },[
+    // this is dependency array
+  ])
+
   return (
     <div>
+      <Reducer/>
       <Nav/>
       <Aside/>
       <Main/>
@@ -49,6 +65,7 @@ const App = () => {
         {count}
         <button onClick={sub}>-</button>
       </div>
+      <FetchAPI/>
     </div>
   )
 }
