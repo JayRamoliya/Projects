@@ -8,6 +8,8 @@ import Parent from './components/FromParentChild/Parent'
 import Parent1 from './components/FromChildParent/Parent'
 import FetchAPI from './components/FetchAPI'
 import Reducer from './components/Reducer'
+import Dashboard from './components/Dashboard'
+import { UserProvider } from './contaxt/UserProvider'
 
 const initivalue = () => {
   console.log('i am run');
@@ -69,8 +71,12 @@ const App = () => {
     inputRef.current.style.backgroundColor="red"
     console.log(inputRef.current.value);
   }
+
   return (
     <div>
+    <UserProvider>
+      <Dashboard/>
+    </UserProvider>
       <input ref={inputRef} id='myinp' type="text" />
       <button onClick={handlesubmit}>Foucs</button>
       <Reducer/>
