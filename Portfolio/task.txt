@@ -1,0 +1,26 @@
+setup project : npm create vite@latest
+
+clean all files
+
+change title Portfolio
+
+install styled components : npm install styled-components
+install react icon : npm install react-icons
+install css animate library : npm install animate.css
+
+dawnload all images
+
+
+1. create a Components folder in src
+
+2.  - Navbar.jsx components inside Components folder
+    - import Navbar.jsx in App.jsx file
+    - first import styled components
+    - import Poppins fonts
+    - import three icon 
+    - create a Main and Right styled components
+
+3.  - HelloPage.jsx components inside Components folder
+    - import HelloPage.jsx in Navbar.jsx file
+    - first import styled components
+    - create a Main styled components
