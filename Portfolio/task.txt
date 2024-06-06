@@ -24,3 +24,6 @@ dawnload all images
     - import HelloPage.jsx in Navbar.jsx file
     - first import styled components
     - create a Main styled components
+
+4.  - AboutPage.jsx components inside Components folder
+    - 
