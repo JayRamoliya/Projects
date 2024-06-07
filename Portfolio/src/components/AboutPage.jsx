@@ -11,14 +11,21 @@ const AboutPage = () => {
             type: "Full Time",
             name: "Dr. Rajkumar’s Learning App",
             location: "Bengaluru",
-            date:"Sep 2021 - Dec 2021"
+            date: "Sep 2021 - Dec 2021"
         },
         {
             profession: "Web Development Intern",
             type: "Internship",
             name: "IonPixelz Web Solutions",
             location: "Bengaluru",
-            date:"Sep 2021 - Dec 2021"
+            date: "Sep 2021 - Dec 2021"
+        },
+        {
+            profession: "SEO / SEM Specialist",
+            type: "Internship",
+            name: "HAAPS",
+            location: "Bengaluru",
+            date: "Sep 2021 - Dec 2021"
         },
     ];
     return (
@@ -33,7 +40,7 @@ const AboutPage = () => {
                             <div id='array' key={value.name}>
                                 <div id="top">
                                     <h3>{value.profession}</h3>
-                                    <button>Full Time</button>
+                                    <button>{value.type}</button>
                                 </div>
                                 <div id='bottom'>
                                     <p><HiOutlineBuildingOffice />{value.name}</p>
@@ -44,6 +51,19 @@ const AboutPage = () => {
                             </div>
                         ))
                     }
+                    <h1>Education</h1>
+                    <div id='array'>
+                        <div id="top">
+                            <h3>Bachelor in Electronics & Communication</h3>
+                            <button>Full Time</button>
+                        </div>
+                        <div id='bottom'>
+                            <p><HiOutlineBuildingOffice />Bangalore Instutute of Technology</p>
+                            <p><CiLocationOn />Rajkot</p>
+                            <p>Aug 2015 - Dec 2020</p>
+                        </div>
+                        <hr />
+                    </div>
                 </Main>
             </Container>
         </>
@@ -96,12 +116,3 @@ const Container = styled.div`
     /* background-color: green; */
 `
 
-// {filterBtns.map((value) => (
-//     <Button
-//       isselected={selectedbtn === value.type}
-//       key={value.name}
-//       onClick={() => filterFood(value.type)}
-//     >
-//       {value.name}
-//     </Button>
-//   ))}

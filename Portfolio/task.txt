@@ -26,4 +26,20 @@ dawnload all images
     - create a Main styled components
 
 4.  - AboutPage.jsx components inside Components folder
-    - 
+    - import AboutPage.jsx in App.jsx file
+    - first import styled components
+    - create a Main & Container styled components
+    - create a data array for store some value 
+    - write a map function on array 
+    - import two react icon
+
+5.  - install react router dom : npm install react-router-dom
+
+6.  - SkillPage.jsx components inside Components folder
+    - import SkillPage.jsx in App.jsx file
+    - first import styled components
+    - create a Main & Container styled components
+    - create a image array for store all image
+    - write a map function on array
+
+7.  - install gsap : npm install gsap

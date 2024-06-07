@@ -6,11 +6,12 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import Header from './HelloPage';
 
+
 const Navbar = () => {
     return (
         <>
             <Main>
-                <img src="/images/logo 1.png" alt="" srcset="" />
+                <img src="/images/logo 1.png"/>
                 <Right>
                     <ul>
                         <li>Home</li>
