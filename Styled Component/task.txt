@@ -1,8 +1,0 @@
-setup project : npm create vite@latest
-
-clean all files
-
-change title Portfolio
-
-install styled components : npm install styled-components
-
