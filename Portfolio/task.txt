@@ -43,3 +43,10 @@ dawnload all images
     - write a map function on array
 
 7.  - install gsap : npm install gsap
+
+8.  - ProjectPage.jsx components inside Components folder
+    - import ProjectPage.jsx in App.jsx file
+    - first import styled components
+    - create a Main styled components
+    - create a data array for store all data
+    - write a map function on array

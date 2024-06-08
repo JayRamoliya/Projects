@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import AboutPage from './components/AboutPage'
 import SkillPage from './components/SkillPage'
+import ProjectPage from './components/ProjectPage'
 
 
 
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <AboutPage/>
       <SkillPage/>
+      <ProjectPage/>
     </>
   )
 }
