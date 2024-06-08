@@ -1,0 +1,44 @@
+1. Complete GSAP Animation Course 🎬
+
+Link: https://www.youtube.com/watch?v=Sc64ZiW2xPA
+
+create a html file
+create a css file
+create a js file
+
+- GSAP ✅
+- What is Animation ✅
+- GSAP Intro ✅
+- GSAP Animation basics ✅
+- gsap.to() and ✅
+- gsap.from() ✅
+
+- Some other features ✅
+- GSAP Timeline and how to control it ✅
+
+gsap.to('element',{ })
+
+to   - init to final (0 to 100)
+from - final to init (100 to 0)
+
+
+x:
+y:
+duration:
+delay:
+rotate:360
+backgroundColor: ""
+borderRadius: ""
+scale: 1 to original
+opacity: 
+stagger: one by one 
+repeat: - one time also run and after run this value
+        - -1 value to infinity
+yoyo:   - true
+
+
+
+excalidraw.com best website
+
+
+46:14

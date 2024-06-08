@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: aliceblue;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: rgb(28, 92, 148);
+}
+
+#boxa{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: rgb(0, 53, 99);
+}
+#boxb{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: rgb(41, 150, 24);
+}
+#boxc{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: rgb(164, 115, 47);
+}
