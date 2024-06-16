@@ -1,0 +1,12 @@
+Link: https://www.youtube.com/watch?v=tmuBsA9IstU
+
+How To Create a Button in React Js With Ripple Effect Animation - Step-by-Step Tutorial
+
+npm create vite@latest
+npm i
+
+
+clean all files
+
+1.  - create a components folder
+    - create a CustomButton.jsx file
